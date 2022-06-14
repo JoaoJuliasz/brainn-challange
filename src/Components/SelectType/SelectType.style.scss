@@ -1,0 +1,87 @@
+.lottery-background {
+    height: 100%;
+    position: relative;
+
+    &-0 {
+        background: #6befa3;
+        height: calc(100% - 20px);
+        padding: 10px;
+    }
+    &-1 {
+        background: #8666ef;
+        height: calc(100% - 20px);
+        padding: 10px;
+    }
+    &-2 {
+        background: #dd7ac6;
+        height: calc(100% - 20px);
+        padding: 10px;
+    }
+    &-3 {
+        background: #ffab64;
+        height: calc(100% - 20px);
+        padding: 10px;
+    }
+    &-4 {
+        background: #5aad7d;
+        height: calc(100% - 20px);
+        padding: 10px;
+    }
+    &-5 {
+        background: #bfaf83;
+        height: calc(100% - 20px);
+        padding: 10px;
+    }
+
+    &:before {
+        width: 210px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+        content: "";
+        height: 100%;
+        position: absolute;
+        right: -110px;
+        border-radius: 50% 0 0 50%;
+        background: rgb(233, 233, 233);
+    }
+
+    .select-container {
+        height: 10%;
+        display: flex;
+        align-items: center;
+    }
+
+    .contest-info-container {
+        height: 90%;
+        display: flex;
+        color: #fff;
+
+        .lottery-info {
+            display: flex;
+            align-items: center;
+            img {
+                max-width: 65px;
+                max-height: 65px;
+            }
+
+            p {
+                font-size: 27px;
+                margin: 10px;
+                text-transform: capitalize;
+                font-weight: 700;
+            }
+        }
+
+        .contest-info {
+            position: absolute;
+            bottom: 20px;
+            // width: 100%;
+            text-align: left;
+            right: 0;
+            left: 12%;
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+}
