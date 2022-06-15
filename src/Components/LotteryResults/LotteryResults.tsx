@@ -12,7 +12,6 @@ type LotteryResultsType = {
 const LotteryResults = ({ contest, loading }: LotteryResultsType) => {
     return (
         <div className="lottery-results-container">
-            <div className="semi-circle"></div>
             {
                 loading ? <LoadingIcon />
                     :

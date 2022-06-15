@@ -44,6 +44,14 @@
         right: -110px;
         border-radius: 50% 0 0 50%;
         background: rgb(233, 233, 233);
+
+        @media (max-width: 860px) {
+            bottom: -30px;
+            width: 100%;
+            left: 0;
+            height: 95px;
+            border-radius: 50% 50% 0 0;
+        }
     }
 
     .select-container {
@@ -56,6 +64,7 @@
         height: 90%;
         display: flex;
         color: #fff;
+        position: relative;
 
         .lottery-info {
             display: flex;
@@ -82,6 +91,25 @@
             left: 12%;
             font-size: 20px;
             font-weight: 500;
+        }
+
+        @media(max-width: 860px) {
+            height: 60%;
+
+            .contest-info {
+                bottom: -30px;
+            }
+        }
+
+        @media(min-width: 861px) and (max-width: 1050px) {
+            .lottery-info {
+                width: 58%;
+
+                p {
+                    margin: 2px;
+                    font-size: 25px;
+                }
+            }
         }
     }
 }

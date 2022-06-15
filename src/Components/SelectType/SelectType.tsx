@@ -23,7 +23,7 @@ const SelectType = ({ lotteries, selectedLottery, setSelectedLottery, lotteriesC
 
     const selectStyles: StylesConfig = {
         container: () => ({ width: 200, margin: '20px' }),
-        menu: () => ({ top: 'auto', background: '#fff', position: 'absolute', width: 200, borderRadius: '10px', margin: '5px 0' }),
+        menu: () => ({ top: 'auto', background: '#fff', position: 'absolute', width: 200, borderRadius: '10px', margin: '5px 0', zIndex: 3 }),
         indicatorSeparator: () => ({ display: 'none' }),
         control: () => ({
             border: 'none', borderRadius: '10px', boxShadow: '5px 5px 31px -10px #000000',
