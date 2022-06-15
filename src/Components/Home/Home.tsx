@@ -7,6 +7,7 @@ import SelectType from '../SelectType/SelectType';
 import { Lotteries, Contest, LotteriesContests } from '../dataTypes/types'
 
 import './Home.styles.scss';
+import LoadingIcon from '../LoadingIcon/LoadingIcon';
 
 type LotteriesT = Lotteries[]
 
@@ -41,12 +42,17 @@ const Home = () => {
 
     return (
         <div className="home-container">
+            {loading &&
+                <div className="loading-container">
+                    <LoadingIcon />
+                </div>
+            }
             <div className="select-type-container">
                 <SelectType lotteries={lotteries} selectedLottery={selectedLottery} setSelectedLottery={setSelectedLottery}
                     lotteriesContests={lotteriesContests} contest={contest} setContest={setContest} setLoading={setLoading} />
             </div>
             <div className="lottery-results-home-container">
-                <LotteryResults contest={contest} loading={loading} />
+                <LotteryResults contest={contest}/>
             </div>
         </div>
     );
