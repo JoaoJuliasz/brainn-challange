@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return wrapper length 1`] = `
+<div
+  className="home-container"
+>
+  <div
+    className="select-type-container"
+  >
+    <SelectType
+      contest={Object {}}
+      lotteries={Array []}
+      lotteriesContests={Array []}
+      selectedLottery="0"
+      setContest={[Function]}
+      setLoading={[Function]}
+      setSelectedLottery={[Function]}
+    />
+  </div>
+  <div
+    className="lottery-results-home-container"
+  >
+    <LotteryResults
+      contest={Object {}}
+    />
+  </div>
+</div>
+`;

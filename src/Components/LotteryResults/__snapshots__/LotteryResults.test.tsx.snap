@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LotteryResults expect to render LotteryResults component 1`] = `
+<div
+  className="lottery-results-container"
+>
+  <div
+    className="lottery-results-numbers justify-content"
+  >
+    <div
+      className="numbers-container"
+      key="1"
+    >
+      <div
+        className="number"
+      >
+        1
+      </div>
+    </div>
+    <div
+      className="numbers-container"
+      key="4"
+    >
+      <div
+        className="number"
+      >
+        4
+      </div>
+    </div>
+    <div
+      className="numbers-container"
+      key="5"
+    >
+      <div
+        className="number"
+      >
+        5
+      </div>
+    </div>
+  </div>
+</div>
+`;

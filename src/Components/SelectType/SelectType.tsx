@@ -66,6 +66,7 @@ const SelectType = ({ lotteries, selectedLottery, setSelectedLottery, lotteriesC
             <div className={`lottery-background-${selectedLottery}`}>
                 <div className="select-container">
                     <Select
+                        id="lottery-selector"
                         onChange={selectLotteryChange}
                         value={lotteries[parseInt(selectedLottery)]}
                         options={lotteries}

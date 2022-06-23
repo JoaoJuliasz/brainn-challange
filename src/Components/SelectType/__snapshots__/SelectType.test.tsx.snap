@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectType expect to render SelectType component 1`] = `
+<div
+  className="lottery-background"
+>
+  <div
+    className="lottery-background-1"
+  >
+    <div
+      className="select-container"
+    >
+      <ForwardRef
+        id="lottery-selector"
+        onChange={[Function]}
+        options={
+          Array [
+            Object {
+              "label": "mega-sena",
+              "value": 1,
+            },
+            Object {
+              "label": "quina",
+              "value": 2,
+            },
+          ]
+        }
+        styles={
+          Object {
+            "container": [Function],
+            "control": [Function],
+            "indicatorSeparator": [Function],
+            "menu": [Function],
+          }
+        }
+        value={
+          Object {
+            "label": "quina",
+            "value": 2,
+          }
+        }
+      />
+    </div>
+    <div
+      className="contest-info-container"
+    >
+      <div
+        className="lottery-info"
+      >
+        <img
+          alt="logo-loteria"
+          src="Logo_Sena.png"
+        />
+        <p />
+      </div>
+      <div
+        className="contest-info"
+      >
+        <p>
+          Concurso
+        </p>
+        <p>
+          456
+           - 
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
